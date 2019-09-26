@@ -8,19 +8,13 @@ package com.notebook.model;
 public class CommandResponse {
 	
 	private String result = "";
-	private String sessionID;
+	
 	
 	public String getResult() {
 		return result;
 	}
 	public void setResult(String result) {
 		this.result = result;
-	}
-	public String getSessionID() {
-		return sessionID;
-	}
-	public void setSessionID(String sessionID) {
-		this.sessionID = sessionID;
 	}
 	
 }
